@@ -36,6 +36,13 @@ public class ArrayUtils {
         return count;
     }
 
+    /**
+     * Count number of elements equal to target
+     * @param x array to search
+     * @param target value to look for
+     * @return count of elements == target
+     * @throws NullPointerException if x is null
+     */
     public static int countOf(int[] x, int target) {
         int count = 0;
         for (int a: x) {
